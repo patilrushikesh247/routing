@@ -1,0 +1,14 @@
+.navbar{
+ display: flex;
+ float: right;
+    font: size 10px;
+    color:aliceblue;
+}
+
+.home{
+    padding: 10px;
+    background-color: azure;
+}
+.h1{
+    margin: 10px 20px 30px 430px;
+}

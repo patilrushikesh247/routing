@@ -1,0 +1,51 @@
+
+<h1 class="h1">router link example</h1>
+<nav class="navbar">
+
+<div class="home">
+<a [routerLink]="['/home']"  >Home</a>
+</div>
+
+<div class="home">
+<a  [routerLink]="['/about']">About</a>
+</div>
+
+<div class="home">
+<a  [routerLink]="['/contact']">Contact</a>
+
+</div>
+<div class="home">
+<a [routerLink]="['/product']"> product</a>
+
+</div>
+
+
+<div class="home">
+    <a [routerLink]="['/notfound']"  > 404 page not found</a>
+    
+</div>
+
+
+
+
+   
+</nav>
+<br>
+
+<button (click)="student()">show student</button>
+<div class="home">
+    <a (click)="home()">not found</a>
+    </div>
+
+<router-outlet></router-outlet>
+
+
+
+<label for="cars"  >Choose a car:</label>
+
+<select id="cars"  >
+ <div  (click)="home()" ><option value="volvo">Volvo</option></div> 
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
